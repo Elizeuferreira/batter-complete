@@ -16,7 +16,7 @@ class DrawHudAction(Action):
     # You found the bug. Great job!
     # **********************************************************************************************
     # todo: fix the bug by making sure the text value is set to the appropriate variable.
-    # [yes, I did it] -------------------------------------------------------------------
+    # [yes, I did it] I have been working here in the changed 
     def _draw_label(self, cast, group, format_str, data):
         label = cast.get_first_actor(group)
         text = label.get_text()
